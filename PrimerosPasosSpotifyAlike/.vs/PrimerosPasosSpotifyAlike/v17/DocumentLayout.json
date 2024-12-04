@@ -1,0 +1,180 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\primerospasosspotifyalike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:primerospasosspotifyalike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\model\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\model\\spotidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\spotidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:view\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\lucah\\desktop\\insti\\aed\\primerospasosspotifyalike\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PrimerosPasosSpotifyAlike",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\PrimerosPasosSpotifyAlike.csproj",
+              "RelativeDocumentMoniker": "PrimerosPasosSpotifyAlike.csproj",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\PrimerosPasosSpotifyAlike.csproj",
+              "RelativeToolTip": "PrimerosPasosSpotifyAlike.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-04T15:15:01.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpotiDB.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\SpotiDB.cs",
+              "RelativeDocumentMoniker": "Model\\SpotiDB.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\SpotiDB.cs",
+              "RelativeToolTip": "Model\\SpotiDB.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:53:05.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Playlist.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Playlist.cs",
+              "RelativeDocumentMoniker": "Model\\Playlist.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Playlist.cs",
+              "RelativeToolTip": "Model\\Playlist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:48:11.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Album.cs",
+              "RelativeDocumentMoniker": "Model\\Album.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Album.cs",
+              "RelativeToolTip": "Model\\Album.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:49:10.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Artist.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Artist.cs",
+              "RelativeDocumentMoniker": "Model\\Artist.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\Artist.cs",
+              "RelativeToolTip": "Model\\Artist.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:46:04.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:44:26.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:10:39.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml.cs",
+              "RelativeToolTip": "View\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:10:00.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml",
+              "RelativeDocumentMoniker": "View\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml",
+              "RelativeToolTip": "View\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-02T19:09:46.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
