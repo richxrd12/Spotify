@@ -8,9 +8,11 @@ namespace PrimerosPasosSpotifyAlike.Model
 {
     public class Artist
     {
-        private int id { get; set;}
-        private string? name { get; set; }
-        private string? musicGenre { get; set; }
-        private string? biography { get; set; }
+        public int Id { get; set; }
+        public string? Name { get; set; }
+        public string? MusicGenre { get; set; }
+
+        //Pendiente porque igual no interesa (?)
+        public string? Biography { get; set; }
     }
 }
