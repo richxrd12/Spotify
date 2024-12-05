@@ -8,10 +8,10 @@ namespace PrimerosPasosSpotifyAlike.Model
 {
     public class User
     {
-        private string id { get; set; }
-        private string name { get; set; }
-        private string email { get; set; }
-        private string password { get; set; }
-        private int idPlaylist { get; set; }
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public string Password { get; set; }
+        public int IdPlaylist { get; set; }
     }
 }
