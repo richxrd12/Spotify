@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrimerosPasosSpotifyAlike")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+07ede9af9414abd194a5344fddc3a88db2534a90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+cd9424b328969ada2e78401ffe0f537c996c640d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrimerosPasosSpotifyAlike")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrimerosPasosSpotifyAlike")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

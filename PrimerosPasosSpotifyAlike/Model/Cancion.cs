@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 
 namespace PrimerosPasosSpotifyAlike.Model
 {
-    public class Album
+    public class Cancion
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int ReleaseYear { get; set; }
-        public int ArtistId { get; set; }
-        public List<Cancion> Canciones { get; set; }
+        public int Duracion { get; set; }
+        public int IdAlbum { get; set; }
+
+        //Hay que añadir la manera de poner la canción aquí abajo (?) para recibir el BLOB .mp3 y poder reproducirlo
+
     }
 }
