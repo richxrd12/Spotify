@@ -55,6 +55,34 @@ namespace PrimerosPasosSpotifyAlike.Model
             return row;
         }
 
+        //Para cuando hagamos el login
+        public async Task<User> SelectUser(string correo, string password)
+        {
+            User user;
+            using (var connection = new SqliteConnection(cadenaConexion))
+            {
+                await connection.OpenAsync();
+                var insertCommand = connection.CreateCommand();
+                insertCommand.CommandText = @"SELECT idUsuario, nombre, email, pass FROM usuarios WHERE email=@email AND pass=@pass";
+                insertCommand.Parameters.AddWithValue("@email", correo);
+                insertCommand.Parameters.AddWithValue("@pass", password);
+
+                using (var reader = await insertCommand.ExecuteReaderAsync())
+                {
+                    user = new User
+                    {
+                        Id = reader.GetInt32(0),
+                        Name = reader.GetString(1),
+                        Email = reader.GetString(2),
+                        Password = reader.GetString(3)
+                    };
+                }
+
+                
+            }
+            return user;
+        }
+
         //Método para cambiar información (supongo que estará un textfield del que podamos recoger la info para poder mandarselo al VM)
         //Método para borrar usuario (por si se quiere dar de baja) **OPCIONAL**
 
