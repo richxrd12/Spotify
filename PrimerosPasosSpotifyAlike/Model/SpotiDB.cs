@@ -27,7 +27,7 @@ namespace PrimerosPasosSpotifyAlike.Model
             }
             else if(DeviceInfo.Platform == DevicePlatform.WinUI)
             {
-                dbPath = "C:\\Users\\lucah\\Desktop\\Insti\\AED\\PrimerosPasosSpotifyAlike\\miDB.db";
+                dbPath = "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\miDB.db";
                 //dbPath = "C:\\Users\\Cynth\\Documents\\mi_sqlite.db";
                 //dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "mi_sqlite.db");
             }
@@ -38,16 +38,32 @@ namespace PrimerosPasosSpotifyAlike.Model
             System.Diagnostics.Debug.WriteLine($"Database path: {dbPath}"); // SOLO EN DEPURACIÓN
         }
 
-        public async Task<int> InsertarPlaylist(Playlist playlist)
+        public async Task<int> InsertPlaylist(Playlist playlist)
         {
-            int row;
+            int row = 0;
             using (var connection = new SqliteConnection(cadenaConexion))
             {
                 await connection.OpenAsync();
                 var insertCommand = connection.CreateCommand();
-                insertCommand.CommandText = @"INSERT INTO *nombre playlist en bd*(titulo, descripcion) values (@titulo, @descripcion)";
+                insertCommand.CommandText = @"INSERT INTO playlist(titulo, descripcion) VALUES (@titulo, @descripcion)";
                 insertCommand.Parameters.AddWithValue("@titulo", playlist.Title);
                 insertCommand.Parameters.AddWithValue("@descripcion", playlist.Description);
+
+                row = await insertCommand.ExecuteNonQueryAsync();
+            }
+            return row;
+        }
+
+        public async Task<int> InsertSongOnPlaylist(Playlist playlist, Cancion cancion)
+        {
+            int row = 0;
+            using (var connection = new SqliteConnection(cadenaConexion)) 
+            {
+                await connection.OpenAsync();
+                var insertCommand = connection.CreateCommand();
+                insertCommand.CommandText = @"INSERT INTO listaCanciones(idPlaylist, idCancion) VALUES (@idPlaylist, @idCancion)";
+                insertCommand.Parameters.AddWithValue("@idPlaylist", playlist.Id);
+                insertCommand.Parameters.AddWithValue("@idCancion", cancion.Id);
 
                 row = await insertCommand.ExecuteNonQueryAsync();
             }
