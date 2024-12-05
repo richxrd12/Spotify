@@ -27,7 +27,9 @@ namespace PrimerosPasosSpotifyAlike.Model
             }
             else if(DeviceInfo.Platform == DevicePlatform.WinUI)
             {
-                dbPath = "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\miDB.db";
+                //Este es nuestro directorio personal, cambiar aquí en cada proyecto para trabajar con la DDBB local
+                dbPath = "C:\\Users\\richa\\Desktop\\Spotify\\";
+                dbPath += "PrimerosPasosSpotifyAlike\\miDB.db";
                 //dbPath = "C:\\Users\\Cynth\\Documents\\mi_sqlite.db";
                 //dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "mi_sqlite.db");
             }
@@ -128,6 +130,22 @@ namespace PrimerosPasosSpotifyAlike.Model
                 await connection.OpenAsync();
                 var insertCommand = connection.CreateCommand();
                 insertCommand.CommandText = @"INSERT INTO listaCanciones(idPlaylist, idCancion) VALUES (@idPlaylist, @idCancion)";
+                insertCommand.Parameters.AddWithValue("@idPlaylist", playlist.Id);
+                insertCommand.Parameters.AddWithValue("@idCancion", cancion.Id);
+
+                row = await insertCommand.ExecuteNonQueryAsync();
+            }
+            return row;
+        }
+
+        public async Task<int> DeleteSongFromPlaylist(Playlist playlist, Cancion cancion)
+        {
+            int row = 0;
+            using (var connection = new SqliteConnection(cadenaConexion))
+            {
+                await connection.OpenAsync();
+                var insertCommand = connection.CreateCommand();
+                insertCommand.CommandText = @"DELETE FROM listaCanciones WHERE idPlaylist=@idPlaylist AND idCancion=@idCancion";
                 insertCommand.Parameters.AddWithValue("@idPlaylist", playlist.Id);
                 insertCommand.Parameters.AddWithValue("@idCancion", cancion.Id);
 
