@@ -38,6 +38,26 @@ namespace PrimerosPasosSpotifyAlike.Model
             System.Diagnostics.Debug.WriteLine($"Database path: {dbPath}"); // SOLO EN DEPURACIÓN
         }
 
+        public async Task<int> InsertUser(User user)
+        {
+            int row = 0;
+            using (var connection = new SqliteConnection(cadenaConexion))
+            {
+                await connection.OpenAsync();
+                var insertCommand = connection.CreateCommand();
+                insertCommand.CommandText = @"INSERT INTO usuarios(nombre, email, pass) VALUES (@nombre, @email, @pass)";
+                insertCommand.Parameters.AddWithValue("@nombre", user.Name);
+                insertCommand.Parameters.AddWithValue("@email", user.Email);
+                insertCommand.Parameters.AddWithValue("@pass", user.Password);
+
+                row = await insertCommand.ExecuteNonQueryAsync();
+            }
+            return row;
+        }
+
+        //Método para cambiar información (supongo que estará un textfield del que podamos recoger la info para poder mandarselo al VM)
+        //Método para borrar usuario (por si se quiere dar de baja) **OPCIONAL**
+
         public async Task<int> InsertPlaylist(Playlist playlist)
         {
             int row = 0;
