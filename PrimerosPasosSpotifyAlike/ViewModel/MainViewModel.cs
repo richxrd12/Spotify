@@ -46,12 +46,11 @@ namespace PrimerosPasosSpotifyAlike.ViewModel
                 LoginResponse = "El email o contraseña no son correctos.";
                 return user;
             }
-            else
-            {
-                LoginResponse = "Ha iniciado sesión correctamente";
-                return user;
-            }
 
+            LoginResponse = "Ha iniciado sesión correctamente";
+            return user;
+
+        }
 
     }
 }
