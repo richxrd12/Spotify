@@ -51,6 +51,5 @@ namespace PrimerosPasosSpotifyAlike.ViewModel
             return user;
 
         }
-
     }
 }
