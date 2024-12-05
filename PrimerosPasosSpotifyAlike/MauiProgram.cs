@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using PrimerosPasosSpotifyAlike.Model;
 
 namespace PrimerosPasosSpotifyAlike
 {
@@ -14,6 +15,7 @@ namespace PrimerosPasosSpotifyAlike
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
+            builder.Services.AddSingleton<SpotiDB>();
 
 #if DEBUG
     		builder.Logging.AddDebug();
