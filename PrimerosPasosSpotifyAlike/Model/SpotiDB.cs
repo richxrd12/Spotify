@@ -102,6 +102,24 @@ namespace PrimerosPasosSpotifyAlike.Model
             return row;
         }
 
+        /*Esto es para insertar la playlist y el usuario en la tabla que los relaciona a través de su ID (tabla: playlist_usuarios)
+        ya que un usuario puede tener varias playlist y viceversa*/
+        public async Task<int> InsertPlaylistAndUser(Playlist playlist, User user)
+        {
+            int row = 0;
+            using (var connection = new SqliteConnection(cadenaConexion))
+            {
+                await connection.OpenAsync();
+                var insertCommand = connection.CreateCommand();
+                insertCommand.CommandText = @"INSERT INTO playlist_usuarios(idUsuario, idPlaylist) VALUES (@idUsuario, @idPlaylist)";
+                insertCommand.Parameters.AddWithValue("@idUsuario", playlist.Id);
+                insertCommand.Parameters.AddWithValue("@idPlaylist", user.Id);
+
+                row = await insertCommand.ExecuteNonQueryAsync();
+            }
+            return row;
+        }
+
         public async Task<int> InsertSongOnPlaylist(Playlist playlist, Cancion cancion)
         {
             int row = 0;
