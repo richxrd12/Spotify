@@ -48,9 +48,9 @@ public partial class HomeViewModel : ObservableObject
 	{
         if (audio != null && output != null)
         {
-            output?.Stop();
-            audio?.Dispose();
-            output?.Dispose();
+            output.Stop();
+            audio.Dispose();
+            output.Dispose();
 			output = null;
 			audio = null;
 			isPlaying = false;
