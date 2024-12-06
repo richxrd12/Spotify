@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 using PrimerosPasosSpotifyAlike.Model;
+using PrimerosPasosSpotifyAlike.View;
 
 namespace PrimerosPasosSpotifyAlike
 {
