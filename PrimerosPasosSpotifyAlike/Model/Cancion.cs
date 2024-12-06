@@ -12,8 +12,9 @@ namespace PrimerosPasosSpotifyAlike.Model
         public string Name { get; set; }
         public int Duracion { get; set; }
         public int IdAlbum { get; set; }
+        public string Ruta { get; set; }
 
         //Hay que añadir la manera de poner la canción aquí abajo (?) para recibir el BLOB .mp3 y poder reproducirlo
-
+        
     }
 }

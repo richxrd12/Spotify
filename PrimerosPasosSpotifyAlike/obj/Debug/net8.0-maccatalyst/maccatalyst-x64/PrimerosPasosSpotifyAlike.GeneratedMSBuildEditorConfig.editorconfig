@@ -41,6 +41,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = PrimerosPasosSpotifyAlike.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/richa/Desktop/Spotify/PrimerosPasosSpotifyAlike/View/Home.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PrimerosPasosSpotifyAlike.View.Home.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Home.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Home.xaml
+
 [C:/Users/richa/Desktop/Spotify/PrimerosPasosSpotifyAlike/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PrimerosPasosSpotifyAlike.View.MainPage.xaml

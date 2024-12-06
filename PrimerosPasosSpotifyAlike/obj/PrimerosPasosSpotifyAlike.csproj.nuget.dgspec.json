@@ -96,6 +96,10 @@
               "target": "Package",
               "version": "[5.4.1.1, )"
             },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -154,6 +158,10 @@
             "MvvmLightLibs": {
               "target": "Package",
               "version": "[5.4.1.1, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
@@ -214,6 +222,10 @@
               "target": "Package",
               "version": "[5.4.1.1, )"
             },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
               "version": "[2.1.10, )"
@@ -267,6 +279,10 @@
             "MvvmLightLibs": {
               "target": "Package",
               "version": "[5.4.1.1, )"
+            },
+            "NAudio": {
+              "target": "Package",
+              "version": "[2.2.1, )"
             },
             "SQLitePCLRaw.bundle_green": {
               "target": "Package",
