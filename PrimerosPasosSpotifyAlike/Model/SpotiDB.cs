@@ -85,7 +85,7 @@ namespace PrimerosPasosSpotifyAlike.Model
             return user;
         }
 
-        //Método para cambiar información (supongo que estará un textfield del que podamos recoger la info para poder mandarselo al VM)
+        //Método para cambiar información (supongo que estará un textfield del que podamos recoger la info para poder mandarselo al VM) **UPDATE**
         //Método para borrar usuario (por si se quiere dar de baja) **OPCIONAL**
 
         public async Task<int> InsertPlaylist(Playlist playlist)

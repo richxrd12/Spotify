@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\model\\spotidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\spotidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|solutionrelative:viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F5275715-7614-41AE-85EF-96D663F2B8EA}|PrimerosPasosSpotifyAlike.csproj|c:\\users\\richa\\desktop\\spotify\\primerospasosspotifyalike\\view\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,7 +102,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:10:24.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T19:10:21.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T18:07:05.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Cancion.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\Cancion.cs",
               "RelativeDocumentMoniker": "Model\\Cancion.cs",
@@ -98,25 +148,23 @@
               "RelativeToolTip": "Model\\Cancion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T12:38:27.597Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T12:38:27.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "SpotiDB.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\SpotiDB.cs",
               "RelativeDocumentMoniker": "Model\\SpotiDB.cs",
               "ToolTip": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\SpotiDB.cs",
               "RelativeToolTip": "Model\\SpotiDB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAIwB4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:53:05.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:53:05.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Playlist.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\Playlist.cs",
               "RelativeDocumentMoniker": "Model\\Playlist.cs",
@@ -124,12 +172,11 @@
               "RelativeToolTip": "Model\\Playlist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:48:11.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:48:11.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\Album.cs",
               "RelativeDocumentMoniker": "Model\\Album.cs",
@@ -137,12 +184,11 @@
               "RelativeToolTip": "Model\\Album.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:49:10.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:49:10.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Artist.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\Artist.cs",
               "RelativeDocumentMoniker": "Model\\Artist.cs",
@@ -150,12 +196,11 @@
               "RelativeToolTip": "Model\\Artist.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:46:04.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:46:04.966Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
@@ -163,25 +208,24 @@
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:44:26.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:44:26.077Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainViewModel.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\ViewModel\\MainViewModel.cs",
               "RelativeDocumentMoniker": "ViewModel\\MainViewModel.cs",
               "ToolTip": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\ViewModel\\MainViewModel.cs",
               "RelativeToolTip": "ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T19:10:39.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "View\\MainPage.xaml.cs",
@@ -189,12 +233,11 @@
               "RelativeToolTip": "View\\MainPage.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T19:10:00.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:10:00.972Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\richa\\Desktop\\Spotify\\PrimerosPasosSpotifyAlike\\View\\MainPage.xaml",
               "RelativeDocumentMoniker": "View\\MainPage.xaml",
@@ -202,8 +245,7 @@
               "RelativeToolTip": "View\\MainPage.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-02T19:09:46.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:09:46.013Z"
             }
           ]
         }

@@ -12,6 +12,5 @@ namespace PrimerosPasosSpotifyAlike.Model
         public string Name { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
-        public int IdPlaylist { get; set; }
     }
 }

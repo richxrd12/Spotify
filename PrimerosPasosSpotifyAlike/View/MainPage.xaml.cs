@@ -10,5 +10,4 @@ namespace PrimerosPasosSpotifyAlike.View
 			BindingContext = mainViewModel;
 		}
 	}
-
 }
